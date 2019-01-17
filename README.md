@@ -14,7 +14,7 @@ I have completed these functions in this project:
 6. Provide a user interaction cmd platform and input error checking.
 
 ### OO Design
-![OO Design](https://gitlab.oit.duke.edu/wl177/ECE651_HW2/blob/master/pic/Person.png)
+<div align=center><img  src="pic/Person.png"/></div>
 
 ### Main Methods
 ![Main Methods]()
@@ -60,7 +60,7 @@ Explain the Design Details of my project
 
 ### OO Design
 
-![OO Design](https://gitlab.oit.duke.edu/wl177/ECE651_HW2/blob/master/pic/Person.png)
+<div align=center><img  src="pic/Person.png"/></div>
 
 - **Level**: For each member, firstly he is a person with some basic properties(name, gender, etc..), then to be a bluedevil, he should have a netid. I use this common and uncommon properties to design class.
 - **Abstract and Override**: Since we need to implement "whois" and different type duke member may have different properties to print out, we should use function override. In parent class (BlueDevil), we give a basic description of the person. Then in child class (Student/Teacher), we override the "whois" function by following form:
