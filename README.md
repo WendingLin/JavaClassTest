@@ -17,7 +17,7 @@ I have completed these functions in this project:
 <div align=center><img  src="pic/Person.png"/></div>
 
 ### Main Methods
-![Main Methods]()
+<div align=center><img  src="pic/infoModel.png"/></div>
 
 ## Getting Started
 
