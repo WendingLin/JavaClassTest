@@ -31,28 +31,48 @@ This project was written and tested in the below JDK version:
 JDK 1.8.0_191
 ```
 
-### Running
+### IDE Project
+1. Create a new project in the IDE (IntelliJ/Eclipse/etc.)
+2. Copy the code in the src file to the src file in the IDE project
 
+## Running
 To start, just input 1, 2 or 3 and press Enter! You could follow the instructions on the screen. I provide a detecting logic to prevent some improper inputs.
 
 
 #### Search a Duke Member
 
 - Type the full name (First Name Last Name) and press enter 
-- If there exists same name, please input the netid (**I will provide all the possible netids with such name**)
+- If there exists same name, please input the netid (**Netid is the unique identity of the bluedevil and I will provide all the possible netids with such name**)
 
-> Demo Output:
+- Demo Output:
+```
+Please type the name of the people you want to search: 
+Wending Lin
+Wending Lin is a MS student
+Wending Lin is from China and He is in ECE department.
+Graduated From: BUPT
+Working Experience: Sina
+Hobby: DOTA2
+```
 
 #### Add a Duke Member
 
 - Follow the instruction on the screen and type the related information.
+- NetID will be automatically generated
 - Some properties have fixed choices.
 - Some choice may ask for extra information (i.e. TA teaches which class)
 
 #### List all the members in secific Department
 - Follow the instruction on the screeen and input the correct department name.
 
-> Demo Output:
+- Demo Output:
+```
+Press 1 to search people by name; Press 2 to add records; Press 3 to list all the members in one department
+3
+Please type the name of the department you want to list the member: 
+ECE
+Wending Lin Yuanyuan Yu Lei Chen You Lyu Shalin Shah Zhongyu Li Adel Fahmy Ric Telford
+```
 
 ## Design Idea
 
